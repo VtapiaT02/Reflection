@@ -1,4 +1,4 @@
-package got.talent.tech.address;
+package gto.tech.talent.address;
 
 public class Address {
     private String street;

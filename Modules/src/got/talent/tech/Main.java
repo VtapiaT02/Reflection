@@ -1,6 +1,6 @@
 package got.talent.tech;
 
-import got.talent.tech.address.Address;
+import gto.tech.talent.address.Address;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -13,7 +13,7 @@ public class Main {
         System.out.println(address);
         try {
             // isInstance
-            Class addressClass = Class.forName("gto.talent.address.Address");
+            Class addressClass = Class.forName("gto.tech.talent.address.Address");
             System.out.println("Name: " + addressClass.getName());
             System.out.println(addressClass.isInstance(new Address("avenida", "zapopan", "jal", "1234", "US")));
 
